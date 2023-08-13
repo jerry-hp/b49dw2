@@ -86,7 +86,7 @@ function renderBlog() {
   <p>
   ${dataBlog[i].description}
   </p>
-  ${dataBlog[i].reactJs} ${dataBlog[i].nodeJs}${dataBlog[i].nextJs}${dataBlog[i].typescript}
+  <p>${dataBlog[i].reactJs} ${dataBlog[i].nodeJs}${dataBlog[i].nextJs}${dataBlog[i].typescript}</p>
   <div class="buttonContainer">
     <button>Edit</button>
     <button>Delete</button>
