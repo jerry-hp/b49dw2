@@ -162,3 +162,13 @@ form textarea {
   color: black;
   box-shadow: 0 0 4px black;
 }
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+  form {
+    width: 90%;
+  }
+  .cardContainer {
+    width: 48%;
+  }
+}
